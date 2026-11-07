@@ -6,7 +6,13 @@ public class Rectangulo {
 	private int altura;
 	private int area;
 	private double perimetro;
-	
+    
+    	
+	public Rectangulo(int base, int altura) {		
+		this.base = base;
+		this.altura = altura;
+	}
+
 	public int getBase() {
 		return base;
 	}
@@ -42,12 +48,12 @@ public class Rectangulo {
 	//funciones
 
 	public int calcularArea() {
-		this.area = base * altura;		
+		this.area = this.base * this.altura;		
 		return this.area;
 	}
 	
 	public double calcularPerimetro() {
-		this.perimetro = (base * 2)+(altura * 2);
+		this.perimetro = (this.base * 2)+(this.altura * 2);
 		return this.perimetro;
 	}
 

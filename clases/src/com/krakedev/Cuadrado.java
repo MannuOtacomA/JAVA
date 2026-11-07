@@ -6,6 +6,10 @@ public class Cuadrado {
 	private double resultadoArea;
 	private double resultadoPerimetro;
 	
+	public Cuadrado(double lado) {
+		this.lado = lado;
+	}
+	
 	public double getLado() {
 		return lado;
 	}
