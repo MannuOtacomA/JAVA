@@ -27,6 +27,12 @@ public class testCalculadora {
 		
 		Calculadora c6 = new Calculadora();
 		c6.mostrarResultado();
+		
+		
+		Calculadora d1 = new Calculadora();
+		System.out.println(d1.calcularDescuento(100, 50));
+		
+		
 
 	}
 
